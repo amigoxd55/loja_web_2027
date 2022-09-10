@@ -73,9 +73,24 @@
     display: table;
 }
 
-@media ( max-widht:460px) {
+@media (max-width: 460px) {
     [class*="col-"] {
         width: 100%;
+    }
+}
+
+@media (max-width: 760px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 460px){
+    .formpesquisa select{
+        display: none;
+    }
+    .formpesquisa input{
+        width:90%;
     }
 }
 
