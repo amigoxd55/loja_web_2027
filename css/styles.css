@@ -1,80 +1,53 @@
-.back{
-    color: rgb(226, 224, 224);
-}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    color: #222;
+   
+   font-size: var(--fs-12);
+   font-family:var(--font-arial)
+    color #222;
+}
+.menu a{
+ color: var(--white);
+ text-decoration: none;
+
+}
+nav ul li{
+    display: inline-block;
+}
+nav .promocional{
+    text-align: right;
 }
 
-header {
-    background-color: #232f3c;
-}
 
-.logo img {
-    height: auto;
+nav .promocional img{
     width: 100%;
+    min-width: 300px;
+   
+}
+.carousel{
+    height: 200px;
+    }
+
+.ptoduto {
+    padding: 0 5px;
+    height: 200px;
 }
 
-.icon{
-    color: #fff;
-}
+   
 
-
-.formpesquisa{
-    display: inline-flexbox;
-    background-color: #fff;
-    border-radius: 20px;
-border-top-left-radius: ;
-}
-
-.formpesquisa select,
-.formpesquisa input,
-.formpesquisa button{
-    height: 100%;
-    min-height: 40px;
-    border: none;
-    border-bottom-left-radius: ;
-    border-bottom-right-radius: ;
-}
-
-
-.formpesquisa select{
-    background-color: #c8daee;
-    padding-left: 10px;
-    width: 35%
     
-    border-bottom-left-radius:10px ;
-    border-top-left-radius:10px ;
-}
 
-.formpesquisa input{
-   width: 48%;
- 
- }
+    
 
-.formpesquisa button{
-    background-color: rgb(130, 153, 153);
-    padding: 0 15px;
-    width: 15px;
-    float: right;
-    border-top-right-radius:10px ;
-    border-bottom-right-radius:10px ;
- }   
 
- @media (max-width: 460px){
-    .formpesquisa select{
-        display: none;
-    }
-    .formpesquisa input{
-        width: 50%%;
-        border-top-left-radius:10px ;
-        border-bottom-left-radius:10px ;
-        padding-left:10px;
-    }
-}
+
+
 /*Nav*/
+
 
 
    

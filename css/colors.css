@@ -1,0 +1,39 @@
+.back{
+    color: var(--back);
+}
+
+.bg-black{
+    background-color:var(--back);
+}
+
+.gray{
+    color: var(--gray);
+}
+
+.bg-gray{
+    background-color:var(black);
+}
+
+.gold {
+    color: var(--gold);
+}
+
+.bg.gold{
+    background-color: var(--gold);
+}
+.blue{
+    color: var(--blue)
+}
+
+.bg-blue{
+    background-color: var(--blue);
+}
+.blue-dark{
+    color: var(--blue-dark);
+}
+.blue-dark{
+    background-color: var(--blue-dark);
+}
+
+
+ 

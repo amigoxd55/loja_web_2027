@@ -1,0 +1,66 @@
+header {
+    background-color: #15181C;
+}
+
+.logo img {
+    height: auto;
+    width: 100%;
+}
+
+.icon{
+    color: var(--white)
+}
+
+
+.formpesquisa{
+    display: inline-flexbox;
+    background-color: #fff;
+    border-radius: 20px;
+
+}
+
+.formpesquisa select,
+.formpesquisa input,
+.formpesquisa button{
+    height: 100%;
+    min-height: 40px;
+    border: none;
+    border-bottom-left-radius: 
+    border-bottom-right-radius: 
+}
+
+
+.formpesquisa select{
+    background-color: #c8daee;
+    padding-left: 10px;
+    width: 35%
+    
+    border-bottom-left-radius:10px ;
+    border-top-left-radius 10px ;
+}
+
+.formpesquisa input{
+   width: 48%;
+ 
+ }
+
+.formpesquisa button{
+    background-color: rgb(130, 153, 153);
+    padding: 0 15px;
+    width: 15px;
+    float: right;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+ }   
+
+ @media (max-width: 460px){
+    .formpesquisa select{
+        display: none;
+    }
+    .formpesquisa input{
+        width: 50%;
+        border-top-left-radius:10px ;
+        border-bottom-left-radius:10px ;
+        padding-left:10px;
+    }
+}
